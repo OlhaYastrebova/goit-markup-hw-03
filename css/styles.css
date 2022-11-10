@@ -37,6 +37,16 @@ ul {
 header {
   background-color: #ececec;
 }
+.menu-nav {
+  display: flex;
+}
+.site-nav {
+  display: flex;
+}
+.email-tel {
+  display: flex;
+  justify-content: flex-end;
+}
 .logo,
 .accent {
   color: #000;
@@ -84,6 +94,9 @@ a {
 .tel .link:hover {
   color: var(--accent-color);
 }
+.email .link {
+  margin-right: 50px;
+}
 
 .hero {
   margin-top: 0;
@@ -122,6 +135,20 @@ a {
 .work {
   background-color: #f5f5f5;
 }
+.fearure-list {
+  display: flex;
+}
+.fearure-list .item {
+  width: 270px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fearure-list .item:first-child {
+  margin-left: 0;
+}
+.fearure-list .item:last-child {
+  margin-left: 0;
+}
 
 .fearures-title {
   font-size: 14px;
@@ -140,17 +167,29 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.work-list,
+.team-list {
+  display: flex;
+}
+.work-list .item,
+.team-list .item {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 50px;
+}
 
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18x;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-speciality {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 footer {
   background-color: #2f303a;
