@@ -36,17 +36,20 @@ ul {
 }
 header {
   background-color: #ececec;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
 }
+
 .menu-nav {
   display: flex;
 }
 .site-nav {
   display: flex;
 }
-.email-tel {
-  display: flex;
-  justify-content: flex-end;
+.site-nav .item {
+  margin-left: 50px;
 }
+
 .logo,
 .accent {
   color: #000;
@@ -57,11 +60,17 @@ header {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.logo {
+  margin-right: 0;
+}
 .accent {
   color: var(--accent-color);
 }
 ul {
   list-style: none;
+}
+.menu-nav {
+  align-items: center;
 }
 .site-nav a {
   color: var(--title-text-color);
@@ -81,6 +90,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .tel .link,
 .email .link {
   color: var(--primary-text-color);
@@ -94,10 +104,15 @@ a {
 .tel .link:hover {
   color: var(--accent-color);
 }
+
+.email-tel {
+  display: flex;
+  margin-right: 0;
+}
 .email .link {
   margin-right: 50px;
+  margin-left: 718px;
 }
-
 .hero {
   margin-top: 0;
   margin-bottom: 30px;
